@@ -63,11 +63,12 @@
 </head>
 
 <body>
-    <div class="bodycontainer">
+    <div class="bodycontainer" style="max-width:220px">
+        <br>
         <center>
             <h3>You can add filters here</h3>
         </center><br>
-        <div class="slidecontainer">
+        <div class="slidecontainer" style="padding-right:5px;margin-right:5px;width:98%">
             <p><strong>Price:</strong><span id="demo"></span></p>
             <input type="range" min="1000" max="1000000" value="12" class="slider" id="myRange">
             <br>
@@ -79,11 +80,11 @@
             <p><strong>Depth:</strong><span id="depth-op"></span></p>
             <input type="range" min="28" max="51" value="12" class="slider" id="depth">
             <br>
-            <button style="height:25px;margin-left:30px;width:120px" type="button" class="btn btn-outline-success"
+            <button style="height:25px;margin-left:30px;width:35%" type="button" class="btn btn-outline-success"
                 id="submit" onclick="submit()">
                 <p>Submit<span id="demo"></span></p>
             </button>
-            <button style="height:25px;float: right;margin-right:30px;width:120px" type="button"
+            <button style="height:25px;float: right;margin-right:30px;width:35%" type="button"
                 class="btn btn-outline-warning" id="skip" onclick="skip()">
                 <p>Skip<span id="skip-span"></span></p>
             </button>
